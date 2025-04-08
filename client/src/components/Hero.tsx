@@ -33,10 +33,10 @@ export default function Hero() {
             </Button>
           </div>
           <div className="mt-8 md:mt-0">
-            <div className="bg-white p-4 rounded-2xl shadow-2xl">
+            <div className="bg-white/10 p-4 rounded-2xl shadow-2xl backdrop-blur-sm">
               <img 
-                src="/attached_assets/psi-site.png"
-                alt="Psicóloga profissional usando o PerfilPluma" 
+                src="/attached_assets/Shots Mockups (5) 1.png"
+                alt="PerfilPluma - Site profissional para psicólogos" 
                 className="w-full h-auto rounded-xl"
                 style={{ maxWidth: "100%" }}
               />
