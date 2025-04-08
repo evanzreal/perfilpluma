@@ -12,7 +12,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative pt-28 pb-24 md:pt-36 md:pb-32 bg-gradient-to-br from-psi-400 to-psi-700 text-white">
+    <section className="relative pt-28 pb-24 md:pt-36 md:pb-32 bg-gradient-to-br from-psi-400 to-psi-700 text-white overflow-hidden">
       <div className="container mx-auto px-6 md:px-10 max-w-6xl relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className="max-w-xl">
@@ -32,11 +32,11 @@ export default function Hero() {
               Quero minha página profissional
             </Button>
           </div>
-          <div className="mt-8 md:mt-0 md:-mr-20 lg:-mr-32">
+          <div className="mt-8 md:mt-0 md:-mr-32 lg:-mr-48 xl:-mr-64">
             <img 
               src="/attached_assets/Shots Mockups (5) 1.png"
               alt="PerfilPluma - Site profissional para psicólogos" 
-              className="w-full h-auto"
+              className="w-full h-auto scale-110 md:scale-125"
             />
           </div>
         </div>
