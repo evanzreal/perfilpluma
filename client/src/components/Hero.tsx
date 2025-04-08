@@ -15,7 +15,7 @@ export default function Hero() {
     <section className="relative pt-28 pb-24 md:pt-36 md:pb-32 bg-gradient-to-br from-psi-400 to-psi-700 text-white">
       <div className="container mx-auto px-6 md:px-10 max-w-6xl relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          <div>
+          <div className="max-w-xl">
             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
               A forma mais fácil de ter seu próprio site
             </h1>
@@ -32,7 +32,7 @@ export default function Hero() {
               Quero minha página profissional
             </Button>
           </div>
-          <div className="mt-8 md:mt-0">
+          <div className="mt-8 md:mt-0 md:-mr-20 lg:-mr-32">
             <img 
               src="/attached_assets/Shots Mockups (5) 1.png"
               alt="PerfilPluma - Site profissional para psicólogos" 

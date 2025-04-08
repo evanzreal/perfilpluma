@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 type FeatureProps = {
   icon: string;
@@ -72,7 +73,7 @@ export default function Features() {
             height="auto"
             className="aspect-video"
             preload="metadata"
-            poster="/attached_assets/video-thumb.png"
+            poster="/attached_assets/print notion .png"
           >
             <source src="/videos/demo-video.mp4" type="video/mp4" />
             Seu navegador não suporta o elemento de vídeo.
