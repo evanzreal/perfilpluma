@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 30% 99%;
+    --foreground: 260 25% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 260 25% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 260 25% 15%;
+    --primary: 255 82% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 260 20% 96%;
+    --secondary-foreground: 260 25% 15%;
+    --muted: 260 20% 96%;
+    --muted-foreground: 260 10% 50%;
+    --accent: 255 82% 95%;
+    --accent-foreground: 260 25% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 260 10% 90%;
+    --input: 260 10% 90%;
+    --ring: 255 82% 65%;
+    
+    --psi-50: 246 244 255;
+    --psi-100: 237 235 255;
+    --psi-200: 219 213 255;
+    --psi-300: 189 178 255;
+    --psi-400: 155 135 245;
+    --psi-500: 122 90 248;
+    --psi-600: 108 60 237;
+    --psi-700: 90 43 215;
+    --psi-800: 75 38 174;
+    --psi-900: 63 35 140;
+    --psi-950: 36 18 86;
+    
+    --cream-50: 250 248 244;
+    --cream-100: 242 239 228;
+    --cream-200: 231 224 205;
+    --cream-300: 214 201 173;
+    --cream-400: 196 175 140;
+    --cream-500: 183 155 117;
+    --cream-600: 169 137 101;
+    --cream-700: 140 111 82;
+    --cream-800: 114 90 70;
+    --cream-900: 94 75 59;
+    --cream-950: 50 38 30;
+  }
+  
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-medium tracking-tight;
+  }
+}
