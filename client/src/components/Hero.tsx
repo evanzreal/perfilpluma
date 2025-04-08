@@ -13,31 +13,33 @@ export default function Hero() {
 
   return (
     <section className="relative pt-28 pb-24 md:pt-36 md:pb-32 bg-gradient-to-br from-psi-400 to-psi-700 text-white overflow-hidden">
-      <div className="container mx-auto px-6 md:px-10 max-w-6xl relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          <div className="max-w-xl">
-            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-              A forma mais fácil de ter seu próprio site
-            </h1>
-            <p className="text-lg md:text-xl mb-8 opacity-90">
-              O PerfilPluma é a solução para construir sua presença online sem depender das redes sociais, que já estão tão saturadas que é praticamente impossível ter resultados sem uma grande estrutura de marketing profissional.
-            </p>
-            <p className="text-lg md:text-xl mb-8 opacity-90">
-              Com seu próprio site, você pode se posicionar em destaque no Google, ser encontrada por clientes que estão procurando diretamente pelos seus serviços e fazer anúncios no Google ADS, que geram resultado muito mais rápido.
-            </p>
-            <Button 
-              onClick={() => window.open("https://payment.ticto.app/OA8C05EE6", "_blank")}
-              className="bg-white text-psi-600 hover:bg-cream-50 font-bold py-3 px-8 rounded-md shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition duration-300"
-            >
-              Quero minha página profissional
-            </Button>
-          </div>
-          <div className="mt-8 md:mt-0 md:-mr-32 lg:-mr-48 xl:-mr-64">
-            <img 
-              src="/attached_assets/Shots Mockups (5) 1.png"
-              alt="PerfilPluma - Site profissional para psicólogos" 
-              className="w-full h-auto scale-110 md:scale-125"
-            />
+      <div className="relative z-10">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+            <div className="pl-6 md:pl-10 max-w-xl">
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                A forma mais fácil de ter seu próprio site
+              </h1>
+              <p className="text-lg md:text-xl mb-8 opacity-90">
+                O PerfilPluma é a solução para construir sua presença online sem depender das redes sociais, que já estão tão saturadas que é praticamente impossível ter resultados sem uma grande estrutura de marketing profissional.
+              </p>
+              <p className="text-lg md:text-xl mb-8 opacity-90">
+                Com seu próprio site, você pode se posicionar em destaque no Google, ser encontrada por clientes que estão procurando diretamente pelos seus serviços e fazer anúncios no Google ADS, que geram resultado muito mais rápido.
+              </p>
+              <Button 
+                onClick={() => window.open("https://payment.ticto.app/OA8C05EE6", "_blank")}
+                className="bg-white text-psi-600 hover:bg-cream-50 font-bold py-3 px-8 rounded-md shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition duration-300"
+              >
+                Quero minha página profissional
+              </Button>
+            </div>
+            <div className="mt-8 md:mt-0 pr-6 md:pr-10">
+              <img 
+                src="/attached_assets/Shots Mockups (5) 1.png"
+                alt="PerfilPluma - Site profissional para psicólogos" 
+                className="w-full h-auto scale-110 md:scale-125"
+              />
+            </div>
           </div>
         </div>
       </div>
