@@ -29,5 +29,7 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    sourcemap: true
   },
+  publicDir: path.resolve(import.meta.dirname, "public")
 });
